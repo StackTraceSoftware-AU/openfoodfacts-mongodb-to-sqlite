@@ -2,7 +2,7 @@
 
 A practical data preparation workflow used to build the offline product database for [Wotsin](https://stacktracesoftware.com/). It combines a Java/MongoDB-to-SQLite batch exporter, SQL selection and indexing, and a read-only Python product-name quality scanner.
 
-**Status:** Source and documentation packaged for publication. The Java exporter was tested by the project author on the complete dataset; the Python validator was run against 533,646 subset records.
+**Status:** Published portfolio project. The Java exporter was successfully tested against the complete Open Food Facts dataset. The Python validator was tested against 533,646 product records, identifying 39 rejection candidates and 387 records requiring review. The validator is read-only and makes no database modifications.
 
 ## Pipeline
 
